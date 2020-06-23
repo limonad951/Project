@@ -1,5 +1,52 @@
     "use strict";
 
+    
+        const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+
+      
+        const presonalMovieDB = {
+
+            count: numberOfFilms,
+            movies: {},
+            actors: {},
+            genres: [],
+            privat: false
+        };
+        
+        const a = prompt('Один из последних просмотренных фильмов?', ''),
+              b = prompt('На сколько оцените его?', ''),
+              c = prompt('Один из последних просмотренных фильмов?', ''),
+              d = prompt('На сколько оцените его?', '');
+
+        presonalMovieDB.movies[a] = b;
+        presonalMovieDB.movies[c] = d;
+        
+        console.log(presonalMovieDB);
+
+        
+
+        
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     // const isChecked = true,
     //       isClose = false;
 
@@ -17,8 +64,8 @@
     // console.log(incr);
     // console.log(decr);
 
-    const category = 'toys';
-    console.log(`https://someurl.com/${category}/5`);
+    // const category = 'toys';
+    // console.log(`https://someurl.com/${category}/5`);
 
     // const user = "Ivan";
 
